@@ -1,8 +1,8 @@
-# React + Vite
+## NodeJS 사용해 서버 만들기
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NodeJS를 사용해서 내장되어 있는 http모듈 사용해 서버 만들기
 
-Currently, two official plugins are available:
+- todo list를 통해 서버 이용하기
+- 즉각적인 추가, 수정, 삭제 리스트에 반영하기
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* 클라이언트와 서버의 origin이 다르면 cors 요청 처리해야 된다.
