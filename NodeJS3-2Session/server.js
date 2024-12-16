@@ -57,11 +57,11 @@ app.post("/", (req, res) => {
 // get 요청 처리하는 코드
 app.get("/", (req, res) => {
   const userInfo = users.find((el) => el.user_id === req.session.userId);
-  return res.json(userInfo);
+  return res.json(userInfo); // json 형식으로 내보내기
 });
 
 app.delete("/", (req, res) => {
-  req.session.destroy();
+  req.session.destroy(); // 세션 내 정보를 삭제하는 메서드
   res.clearCookie("session_id"); // 로그아웃 시 쿠키도 삭제
   res.send("세션 삭제 완료");
 });
