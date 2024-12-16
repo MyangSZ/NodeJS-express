@@ -1,7 +1,9 @@
 ## Node.js & Express
 
-- - -
+---
+
 ### Cookie
+
 쿠키 사용 알아보기
 쿠키 옵션 설정 해보기
 
@@ -31,4 +33,3 @@ app.delete("/", (req, res) => {
   res.send("쿠키 삭제 완료");
 });
 ```
-
